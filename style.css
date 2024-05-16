@@ -1,0 +1,303 @@
+body{
+    margin: 0px;
+}
+ul,li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li a {
+    display: inline-block;
+    font-size: 15px;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 26px 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#header{
+    background-color: #F0FFF0;
+    height: 700px;
+}
+.topbar{
+    margin-right: 100px;
+}
+.topbar .logo{
+    margin-left: 212px;
+}
+.topbar .menu .Sign_btn{
+    background-color: #21B573;
+    width: 100px;
+    height: 30px;
+    padding: 7px 0px 5px 0px;
+    text-align: center;
+    margin-top: 32px;
+    border-radius: 33px;
+    margin-left: 20px;
+}
+.topbar .menu .Sign_btn a{
+    color: #F0FFF0;
+}
+.hero{
+    margin-left: 205px;
+}
+.hero h4{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FD511A;
+    margin-top: 30px;
+}
+.hero h3{
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: -20px;
+}
+.hero h3 span{
+    font-size: 48px;
+    color: #21B573;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.hero p{
+    font-size: 16px;
+    color: #6C6B6B;
+    margin-top: -20px;
+}
+.hero .hero_btn{
+    background-color: #21B573;
+    text-align: center;
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 33px;
+    margin-top: 30px;
+}
+.hero .hero_btn a{
+    color: #F0FFF0;
+}
+.hero_box{
+    margin-top: 90px;
+}
+.hero_box .img{
+    margin-left: 100px;
+}
+#information {
+    margin-top: 50px;
+}
+#information .info_box{
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    text-align: center;
+    border-radius: 10px;
+    width: 270px;
+    height: 270px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    border-radius: 10;   
+}
+#information .full_box{
+    margin-left: 200px;
+}
+#information .info_box h5{
+    color: #413960;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#information .info_box p{
+    color:  #585859;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -30px;
+}
+#information .info_box img{
+    width: 66px;
+    height: 85px;
+    margin-top: 40px;
+}
+#online_course{
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+#online_course .online_heading h4{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#online_course .online_full_box{
+    margin-left: 65px;
+}
+#online_course .online_full_box .online_box{
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    width: 360px;
+    height: 483px;
+    top: 1102px;
+    left: 934px;
+    border-radius: 18px;
+    padding-left: 25px;
+    padding-top: 25px;
+    margin-right: 30px;
+}
+#online_course .online_full_box .online_box img{
+    width: 331px;
+    height: 234px;
+    top: 1126px;
+    left: 154px;
+    border-radius: 11;
+}
+#online_course .online_full_box .online_box h4{
+    color: #413960;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align:left;
+    padding-left: 10px;
+}
+#online_course .online_full_box .online_box p{
+    color: #585859;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+#online_course .online_full_box .online_box a{
+    background-color: #21B573;
+    color: #F0FFF0;
+    width: 137px;
+    height: 35px;
+    top: 1461px;
+    left: 158px;
+    padding: 8px 18px;
+    border-radius: 33px;
+}
+#online_course .online_full_box .online_box .buy_btn{
+    justify-content: space-around;
+}
+#online_course .online_full_box .online_box .buy_btn .btn_1{
+    margin-right: 80px;
+    color: #585859;
+}
+#online_course .online_full_box .online_box .buy_btn .btn_2{
+    margin-right: 20px;
+    color: #585859;
+}
+#online_course .online_full_box .online_box .buy_btn h5{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 2px;
+}
+#testimonial {
+    margin-bottom: 100px;
+}
+#testimonial .testimonial_info img{
+    margin-left: 320px;
+}
+#testimonial .testimonial_heading h4{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#testimonial .testimonial_info h5{
+    color: #000000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 50px;
+    
+}
+#footer{
+    background-color: #282531;
+    width: 1540px;
+    height: 369px;
+}
+#footer .footer_full_box{
+    color: #FFFFFF;
+}
+#footer .footer_info p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+#footer .footer_full_box .footer_box {
+	padding: 25px 10px;
+	margin-left: 44px;
+	margin-top: 20px;
+	padding-left: 80px;
+}
+#footer .footer_full_box .footer_box h4{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: -20px;
+}
+#footer .footer_full_box .footer_box h5{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: -25px;
+}
+#footer .footer_last_heading{
+    color: #CDCDCD;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 20px;
+}
